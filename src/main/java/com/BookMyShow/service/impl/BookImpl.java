@@ -12,11 +12,11 @@ import com.BookMyShow.repository.BookingRepository;
 import com.BookMyShow.repository.ShowsRepository;
 import com.BookMyShow.repository.UserRepository;
 import com.BookMyShow.service.BookService;
-import jakarta.persistence.EntityNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -80,7 +80,7 @@ public class BookImpl implements BookService {
     public BookingDto getBooking(Long id) {
         Optional<Booking> booking=bookingRepository.findById(id);
         if(!booking.isPresent()){
-            throw new  EntityNotFoundException("Ticket Not Found with ID: " + id);
+            throw new EntityNotFoundException("Ticket Not Found with ID: " + id);
         }
         return modelMapper.map(booking,BookingDto.class);
     }

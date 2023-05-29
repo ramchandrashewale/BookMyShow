@@ -13,7 +13,6 @@ import com.BookMyShow.repository.ScreenRepository;
 import com.BookMyShow.repository.ShowSeatsRepository;
 import com.BookMyShow.repository.ShowsRepository;
 import com.BookMyShow.service.ShowService;
-import jakarta.persistence.EntityNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -21,6 +20,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;

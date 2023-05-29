@@ -3,7 +3,6 @@ package com.BookMyShow.controller;
 import com.BookMyShow.dto.PageResponse;
 import com.BookMyShow.dto.ShowDto;
 import com.BookMyShow.service.ShowService;
-import jakarta.validation.constraints.Min;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;

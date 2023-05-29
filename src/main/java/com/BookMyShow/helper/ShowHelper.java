@@ -5,12 +5,12 @@ import com.BookMyShow.entity.Screen;
 import com.BookMyShow.entity.Shows;
 import com.BookMyShow.entity.Theater;
 import com.BookMyShow.repository.ShowsRepository;
-import jakarta.persistence.criteria.Join;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
+import javax.persistence.criteria.Join;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;

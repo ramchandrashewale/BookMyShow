@@ -11,11 +11,11 @@ import com.BookMyShow.repository.MovieRepository;
 import com.BookMyShow.repository.ScreenRepository;
 import com.BookMyShow.repository.TheaterRepository;
 import com.BookMyShow.service.TheaterAndScreenService;
-import jakarta.persistence.EntityNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.Optional;
 
 @Service

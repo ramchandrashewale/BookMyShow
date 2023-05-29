@@ -3,9 +3,9 @@ package com.BookMyShow.entity;
 import com.BookMyShow.enums.SeatType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity

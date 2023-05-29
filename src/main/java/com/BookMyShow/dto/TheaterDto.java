@@ -2,7 +2,6 @@ package com.BookMyShow.dto;
 
 import com.BookMyShow.entity.Screen;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.Column;
 import lombok.*;
 
 import java.util.ArrayList;

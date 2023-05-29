@@ -2,7 +2,6 @@ package com.BookMyShow.dto;
 
 import com.BookMyShow.entity.Shows;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

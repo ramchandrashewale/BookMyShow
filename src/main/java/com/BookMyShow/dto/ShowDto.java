@@ -3,7 +3,6 @@ package com.BookMyShow.dto;
 import com.BookMyShow.entity.Movie;
 import com.BookMyShow.entity.Screen;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;

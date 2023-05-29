@@ -1,9 +1,9 @@
 package com.BookMyShow.entity;
 
 import com.fasterxml.jackson.annotation.*;
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 

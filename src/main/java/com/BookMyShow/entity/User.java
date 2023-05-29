@@ -1,9 +1,9 @@
 package com.BookMyShow.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -27,7 +27,8 @@ public class User {
     @Column(name = "email_id",nullable = false)
     private String email;
 
-    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy
+            = "user",cascade = CascadeType.ALL)
     @JsonIgnore
     private List<Booking> bookings;
 }
